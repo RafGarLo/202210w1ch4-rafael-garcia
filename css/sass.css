@@ -11,13 +11,14 @@ h1 {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 95vw;
   height: 20vh;
   font-size: large;
 }
 
 header img {
-  height: 15vh;
+  height: 10vh;
 }
 
 header span {
@@ -41,24 +42,85 @@ main {
 
 section {
   width: 100vw;
-  margin: 5vw;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 1em;
+  gap: 3em;
 }
 
 section img {
   display: flex;
   justify-content: space-evenly;
-  gap: 2vw;
+  gap: 4vw;
   border-radius: 10%;
+  width: 30vw;
 }
 
+/*section p {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    width: 30vw;
+}*/
 .div-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+}
+
+.view-menu {
+  width: 8rem;
+  background-color: #ed6436;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 20px 20px 20px;
+  font-size: small;
+}
+
+.view-menu:hover {
+  color: rgb(236, 85, 4);
+  background-color: white;
+  border-color: rgb(236, 85, 4);
+  cursor: pointer;
+}
+
+button {
+  border-radius: 0px 20px 20px 20px;
+  background-color: white;
+  border-color: rgb(236, 85, 4);
+  padding: 1rem;
+  cursor: pointer;
+  font-size: medium;
+}
+
+button:hover {
+  background-color: #ed6436;
+  border: solid 1px black;
+  color: white;
+}
+
+span:hover {
+  color: #ed6436;
+}
+
+.hovertext {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: larger;
+}
+
+.hovertext p {
+  opacity: 0;
+}
+
+section img:hover .hovertext p {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=sass.css.map */
