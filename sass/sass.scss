@@ -3,3 +3,18 @@
 * {
     font-family: 'Nunito', sans-serif;
 }
+h1 {
+    display: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    height: 30vh;
+    font-size: large;
+}
+header {
+    img {
+        height: 15vh;
+    }
+}
