@@ -36,14 +36,18 @@ main {
     color: black;
 }
 section {
+    width: 100vw;
+    margin: 5vw;
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
+    justify-content: center;
+    gap: 1em;
 }
 section {
     img {
         display: flex;
         justify-content: space-evenly;
+        gap: 2vw;
+        border-radius: 10%;
     }
 }
 .div-container {
